@@ -10,9 +10,9 @@ class Connection
 		try {
 
 			$conn = new \PDO(
-				"pgsql:host=dpg-cnjd0k7109ks73bnovg0-a.oregon-postgres.render.com;dbname=b_invest_coin;charset=utf8",
-				"user_sa",
-				"eTpizNFkxoc2IY2jtUTQruSu8KlA92RB"
+				"mysql:host=localhost;dbname=mydb;charset=utf8",
+				"user",
+				"password"
 			);
 
 			return $conn;
