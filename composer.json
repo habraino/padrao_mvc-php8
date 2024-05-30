@@ -1,6 +1,6 @@
 {
-    "name": "Fundation/fundation",
-    "description": "Fundation",
+    "name": "Teste-Drive/teste",
+    "description": "Teste-Drive",
     "autoload": {
         "psr-4": {
             "app\\": "app"
