@@ -6,7 +6,7 @@
             $this->index();
         }
         public function index() {
-          include_once __DIR__.DIRECTORY_SEPARATOR.'../views/inicio/index.php';
+          include_once __DIR__.DIRECTORY_SEPARATOR.'../views/index/index.php';
         }
     }
  ?>
